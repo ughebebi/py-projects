@@ -23,4 +23,4 @@ def ticket (cm:int)->int:
     elif cm >=150:
         price = 200
 
-    print('стоимость билета',price,'рублей')
+    return price

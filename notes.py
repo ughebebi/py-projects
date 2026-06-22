@@ -31,4 +31,13 @@
 #     else:
 #         if cm >=150:
 #             price = 200
-#
+
+# ticket(100)
+# ticket(120)
+# ticket(125)
+# ticket(150)
+# ticket(200)
+
+# print("\t Здравствуйте!\n Какой у вас рост в см? ")
+
+print('стоимость билета',price,price2,'рублей')
