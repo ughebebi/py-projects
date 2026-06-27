@@ -24,3 +24,13 @@ def ticket (cm:int)->int:
         price = 200
 
     return price
+
+def check_height(cm:int)->bool:
+    if cm < 80:
+        result = False
+    elif cm > 230:
+        result = False
+    else:
+        result = True
+
+    return result

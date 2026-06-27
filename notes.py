@@ -41,3 +41,13 @@
 # print("\t Здравствуйте!\n Какой у вас рост в см? ")
 
 # print('стоимость билета',price,price2,'рублей')
+
+# cost = ticket(height) + ticket(height2)
+
+# cost = cost + ticket(height2)
+
+# print(" Введите рост первого человека")
+
+# print("Введите рост второго человека")
+
+# cost += ticket(height2)

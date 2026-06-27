@@ -1,18 +1,15 @@
 from make import *
 
-price = 0
-price2 = 0
+height = 0
+cost = 0
 
 print("\t Здравствуйте!")
-print(" Введите рост первого человека")
-
-height = int(input())
-price = ticket(height)
-
-print("Введите рост второго человека")
-height2 = int(input())
-price2 = ticket(height2)
-
-cost = price2 + price
+print(" Сколько пришло человек?")
+people = int(input())
+# todo сделать проверку.
+for  i in range(1,people+1):
+    print("Введите рост",i,"человека.")
+    height = int(input())
+    cost += ticket(height)
 
 print("с вас итого:",cost,"рублей")
