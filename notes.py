@@ -51,3 +51,10 @@
 # print("Введите рост второго человека")
 
 # cost += ticket(height2)
+
+# if not people.isdigit():
+#     print("не число")
+# elif int(people) == 0:
+#     print("ноль")
+# else:
+#     print("число")
