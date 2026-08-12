@@ -58,3 +58,10 @@
 #     print("ноль")
 # else:
 #     print("число")
+
+# if people.isdigit() and int(people) != 0:
+#     print("число")
+# else:
+#     print("не число")
+
+# people = int(input())
