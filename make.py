@@ -8,7 +8,7 @@ def cm2m(cm:float)->float:
     m_in_cm = 0.01
     return m_in_cm*cm
 
-def strrepeat (s:str,cnt:int):
+def str_repeat (s:str,cnt:int):
     for i in range(1,cnt+1):
         print(i*s)
 
@@ -34,3 +34,5 @@ def check_height(cm:int)->bool:
         result = True
 
     return result
+
+

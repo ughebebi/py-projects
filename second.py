@@ -1,3 +1,3 @@
 from make import *
 
-strrepeat('ы',7)
+str_repeat('ы',7)
